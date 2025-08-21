@@ -4,7 +4,7 @@ package intro;
 public class Produto {
     // Todo produto tem um nome e preço
     private final String nome;
-    private final Float preco;
+    private float preco;
 
     // Inicializa um objeto de produto
     public Produto(String nome, Float preco) { 
