@@ -2,7 +2,7 @@ package intro;
 
 import java.util.Scanner;
 
-public class app {
+public class App {
 
 	public static void main(String[] args) {
 		// Entrada do usuário
