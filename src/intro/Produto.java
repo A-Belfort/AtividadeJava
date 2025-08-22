@@ -4,10 +4,10 @@ package intro;
 public class Produto {
     // Todo produto tem um nome e preço
     private final String nome;
-    private float preco;
+    private Double preco;
 
     // Inicializa um objeto de produto
-    public Produto(String nome, Float preco) { 
+    public Produto(String nome, Double preco) { 
         this.nome = nome;
         this.preco = preco;
     };
@@ -18,8 +18,11 @@ public class Produto {
     }
 
     // Retorna o preço do produto
-    public float getPreco() {
+    public Double getPreco() {
         return preco;
     }
 
+    public void exibirDetalhes() {
+        System.out.println("Nome: " + nome + ", Preço: R$" + preco);
+    }
 }
