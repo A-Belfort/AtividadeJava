@@ -7,10 +7,10 @@ public class App {
 
 	public static void main(String[] args) {
 		List<Produto> prateleira = List.of(
-			new Livro("Livro",25.50, "Anonimo", 2025),
+			new LivroFisico("Livro",25.50, "Anonimo", 2025, 240),
 			new Ebook("Livro: E", 10.15, "Anonimo2", 2025, 10.77),
 			new Audiobook("LivroAudio", 5.99, "Anonimo3", 2025, 120),
-			new ItemPapelaria("Papelaria", 4.99, "PapelPlus", "É papel!")
+			new Lapis("FabroCastello", 2.99, "FabroCastello","Madeira",0.7,"Preto")
 		);
 
 		System.out.println("Bem-vindo a livraria digital!");
