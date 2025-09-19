@@ -4,7 +4,6 @@ import java.util.Scanner;
 import java.util.List;
 
 public class App {
-
 	public static void main(String[] args) {
 		List<Produto> prateleira = List.of(
 			new LivroFisico("Livro",25.50, "Anonimo", 2025, 240),

@@ -15,6 +15,6 @@ public class Ebook extends Livro {
     @Override
     public void exibirDetalhes() {
         super.exibirDetalhes();
-        System.out.println("Tipo: Ebook, Tamanho do arquivo: " + tamanhoArquivoMB + " MB");
+        System.out.println("Tipo: Ebook, Tamanho do arquivo: " + getTamanhoArquivoMB() + " MB");
     }
 }
