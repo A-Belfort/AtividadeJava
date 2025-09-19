@@ -5,7 +5,7 @@ public class Caneta extends ItemPapelaria {
 	double espessuraponta;
 	private String tintatipo;
 	
-	public Caneta(String nome, Double preco, String marca, String cor, double espessuraponta, String tintatipo) {
+	public Caneta(String nome, Double preco, String marca, String tintatipo, double espessuraponta, String cor) {
 		super(nome, preco, marca);
         this.espessuraponta = espessuraponta;
         this.cor = cor;

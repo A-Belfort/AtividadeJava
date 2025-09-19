@@ -12,6 +12,10 @@ public class Cliente {
     public String getNome() {
         return nome;
     }
+    
+    public String getEndereco() {
+        return endereco;
+    }
 
     public void exibirDetalhes() {
         System.out.println("Nome do Cliente: " + nome + ", Endereço: " + endereco);

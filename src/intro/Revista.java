@@ -13,7 +13,7 @@ public class Revista extends Produto {
     @Override
     public void exibirDetalhes() {
         super.exibirDetalhes();
-        System.out.println("Tipo: Revista, Editora: " + editora + ", Edição: " + numeroEdicao);
+        System.out.println("Tipo: Revista, Editora: " + editora + ", Edição #" + numeroEdicao);
     }
 }
 
